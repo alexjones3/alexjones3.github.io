@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width", initial-scale="1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/531eec8775.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="images/signature.png" class="logo">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-text">
+      <p>Software Engineer</p>
+      <h1>Hi, I'm <span>Alex</span> <br>from England!</h1>
+    </div>
+  </div>
+</div>
+<!-------------about----------------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="pictures/IMG_7617_Facetune_29-01-2021-21-06-01.png" alt="man">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>Write a short bio about me lol</p>
+        
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Coding</span><br>Self-taught Web Developer and Python Engineer</li>
+            <li><span>Financial Modelling</span><br>DCF, M&A, IPO and LBO using Excel VBA and Python</li>
+            <li><span>Data Analysis</span><br>Inspecting, cleansing, transforming and modelling data in order to support decision making</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>Poo</span><br>Pooing on ppl ll i want to do is  poo poo and wee wee all day long!</li>
+            <li><span>Wee</span><br>Weeing on ppl ll i want to do is  poo poo and wee wee all day long!</li>
+            <li><span>Farts</span><br>poo face poo face on ppls ll i want to do is  poo poo and wee wee all day long!</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>The University of Essex</span><br>BSc Financial Economics</li>
+            <li><span>Sandbach School</span><br>Economics, Mathematics & Politics</li>
+            <li><span>Self-Taught</span><br>HTML, CSS, Javascript, Python</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-------------services----------------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>I make websites ll i want to do is  poo poo and wee wee all day long!</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>UI/UX Design</h2>
+        <p>I make UI ll i want to do is  poo poo and wee wee all day long! </p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>App Design</h2>
+        <p>I app websites ll i want to do is  poo poo and wee wee all day long!</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---------------------portfolio------------------>
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png" alt="no">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>This is a super cool all that allows you
+            to eat and drink and fight!!!!
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-2.png" alt="no">
+        <div class="layer">
+          <h3>Trading App</h3>
+          <p>This is a super cool all that allows you
+            to eat and drink and fight!!!!
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png" alt="no">
+        <div class="layer">
+          <h3>Music App</h3>
+          <p>This is a super cool all that allows you
+            to eat and drink and fight!!!!</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+
+  </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r118/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
